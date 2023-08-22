@@ -9,7 +9,7 @@
 <body>
 	
 	<h1>customer Login Page</h1>
-	<form action="LogCustomer" metho="post">
+	<form action="LogCustomer" method="post">
 	
 		<label for="tbEmail">Email:</label>
 		<input type="email" name="tbEmailLog" id="tbEmail" value="<%=request.getParameter("tbEmail")%>" />
